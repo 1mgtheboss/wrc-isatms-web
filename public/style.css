@@ -1,0 +1,75 @@
+body {
+
+    background: #F0C27B;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4B1248, #F0C27B);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4B1248, #F0C27B);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+
+
+
+textarea,
+div,
+input {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #ffffff;
+
+}
+
+textarea,
+input {
+    color: #ffffff;
+}
+
+div {
+    border: 1px solid #ffffff;
+    cursor: pointer;
+
+}
+
+textarea {
+    overflow: hidden;
+    resize: none;
+    outline: none;
+
+}
+
+input {
+    outline: none;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ffffff;
+    opacity: 1;
+    /* Firefox */
+    font-family: 'Quicksand', sans-serif;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+
+    color: #ffffff;
+    text-decoration: none;
+}
